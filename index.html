@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PingPong Score keeper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="imgs"
+        src="https://cdnmedia.baotintuc.vn/Upload/e9GdNZvHDFi8lZSWc6ubA/files/2023/10/bong-ban-31023b.jpg"
+        alt=""
+      />
+      <h1>Pingpong score keeper</h1>
+      <h2><span id="player1">0</span> to <span id="player2">0</span></h2>
+      <h3>Use the buttons below to keep the score</h3>
+      <div class="sett">
+        <label for="set-match">Playing to</label>
+        <select name="set-match" id="set-match">
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+      <div>
+        <button id="plus1-player1">+1 for P1</button>
+        <button id="plus1-player2">+1 for P2</button>
+        <button id="reset-value">Reset</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
